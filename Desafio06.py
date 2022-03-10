@@ -9,4 +9,4 @@ if media <5:
     situacao = 'Reprovado'
 resultados_sala = {'Nome': nome.capitalize(), 'Média': media, 'Situação': situacao}  
 
-print(resultados_sala, type(resultados_sala))
+print(resultados_sala)

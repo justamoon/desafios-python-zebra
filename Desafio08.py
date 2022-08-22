@@ -9,12 +9,7 @@ def maior(inteiros):
         
     return maior
 
-
 i = int(input('Quantos números inteiros? '))
-numeros = []
-for i in range(i):
-    numeros.append(int(input('Digite um número: ')))
+numeros = [ int(input('Digite um número: ')) for j in range(i)]
 
-#Uma comprehensive list??
-
-print('O maior maior número dessa sequência é o', maior(numeros))
+print('O maior número dessa sequência é o', maior(numeros))

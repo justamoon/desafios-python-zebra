@@ -2,6 +2,12 @@
 #que será um valor lógico (opcional) indicando se será mostrado ou não na tela o processo de cálculo do fatorial.
 
 def fatorial(n, show):
+    """
+    -> Calcula o fatorial de um numero.
+    :par. n: Numero a ser calculado
+    :par. show: (opcional) Mostrar ou nao a conta.
+    :return: O numero n e seu valor do Fatorial.
+    """
     try:
         show = bool(int(show))
     except:
@@ -19,3 +25,4 @@ def fatorial(n, show):
 
 f = fatorial(int(input('Digite um valor: ')), input('Deseja visualizar o processo? \n 0 - não \n 1 - sim \n'))
 print('O fatorial de {} é {}'.format(f[0], f[1]))
+help(fatorial)

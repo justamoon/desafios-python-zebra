@@ -14,6 +14,7 @@ def leiaInt(msg):
         if ok:
             break
     return valor
+
 #Programa Principal
 
 n = leiaInt('Digite um número: ')
